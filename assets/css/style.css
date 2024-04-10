@@ -1,0 +1,20 @@
+.game_container {
+    width: 1400px;; /* Largura desejada */
+    height: 98vh; /* Altura desejada */
+    background-image: url('../../assets/img/campo_futebol.png'); /* Substitua 'sua-imagem.jpg' pelo nome do arquivo de imagem desejado */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem no contêiner */
+    position: relative; /* Define a posição como relativa para posicionar elementos filhos */
+    border: 2px solid #000; /* Adiciona uma borda preta de 2px ao redor do contêiner (opcional) */
+    /* Outras propriedades de estilo, como cores de texto, fontes, etc. */
+  }
+.campo_container{
+    position:relative;border:2px solid black;width:1400px;display:flex;height:100%
+}
+.posicoes_container{
+    position:absolute;left:18.5%;top:35%;height:350px;width:835px;display:flex;flex-direction:column;      flex-wrap: wrap;
+}
+.posicao_campo{
+    border-left:1px dotted gold;width:11%;height:20%; display: flex;justify-content: center; align-items: center;
+}
+  
